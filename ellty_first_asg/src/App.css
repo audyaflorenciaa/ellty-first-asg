@@ -38,6 +38,9 @@ body {
 .card {
   background-color: #FFFFFF;
   width: 370px;
+  height: 326px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 6px;
   border: 1px solid #EEEEEE;
   box-shadow: 0px 8px 15px rgba(20, 20, 20, 0.12), 0px 0px 4px rgba(20, 20, 20, 0.1);
@@ -202,19 +205,20 @@ body {
   width: 340px;
   height: 0.7px;
   background-color: #CDCDCD;
-  margin: 10px auto;
+  margin: 8px auto 4px;
   flex-shrink: 0;
 }
 
 .btn-done {
-  margin: 14px 15px 6px; 
+  margin: 10px 15px; 
+  margin-top: auto;
   width: calc(100% - 30px);
   height: 40px;
   background-color: var(--btn-yellow-default);
   border-radius: 4px;
   border: none;
   font-size: 14px;
-  font-weight: 300; 
+  font-weight: 300;
   color: black;
   cursor: pointer;
   transition: background-color 0.15s ease, transform 0.1s ease;
