@@ -203,8 +203,8 @@ body {
 
 .divider {
   width: 340px;
-  height: 0.7px;
-  background-color: #CDCDCD;
+  height: 0;
+  border-top: 0.7px solid #CDCDCD;
   margin: 8px auto 4px;
   flex-shrink: 0;
 }
